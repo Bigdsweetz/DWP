@@ -1,14 +1,12 @@
 *Douglas Jay Sweeting II*
 
 *DWP*
-
 *Portfolio Deployment Plan*
 
 
 
 **This is the portfolio of Douglas J. Sweeting II. Any and all changes should following the below listed guidelines.** 
 
----
 ## The plan for Deployment
 1. Making any changes
 2. Check for errors
@@ -17,8 +15,6 @@
 5. Version control
 5. Pushing to the test server
 
-
----
 # 1.  Making Changes #
 1. Changes can be done with any editor of your choosing.
 2. Changes can #NOT# be saved unless properly documented as to avoid confusion
