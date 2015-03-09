@@ -21,7 +21,7 @@
 
 # 1.  Making Changes #
 1. Changes can be done with any editor of your choosing.
-2. Changes can #NOT# be saved unless properly documented as to avoid confusion
+2. Changes can **NOT** be saved unless properly documented as to avoid confusion
 
 # 2.  Check For Conflicts #
 1.  Type **git checkout master** and the press *Enter* 
@@ -46,9 +46,9 @@ a. If there are any errors, please make the neccessary changes to remedy any iss
 # 6.  Test Server  #
 1.  Notify the team via agreed upon messeging service of projected upload to server.
 2.  Type **git push** *staging server* **master**
-3.  Iron out #ANY# issues we ran into.
+3.  Iron out **ANY** issues we ran into.
 4.  Test again.
-a. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take
-I.  In the event of a major issue. We will go back to step 2 in the process and work accordingly
-II. In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here)
+    a. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take
+        I.  In the event of a major issue. We will go back to step 2 in the process and work accordingly
+        II. In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here)
 5.  Promote to Production
