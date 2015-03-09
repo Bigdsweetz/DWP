@@ -26,7 +26,7 @@
 # 2.  Check For Conflicts #
 1.  Type **git checkout master** and the press *Enter* 
 2.  Next, type **git pull** *remoteRepo* **master** and then press *Enter*
-3. In the even of any errors ~because there are never errors~ Fix what you broke, commit accordingly and pull again
+3. In the even of any errors ~~because there are never errors~~ Fix what you broke, commit accordingly and pull again
 
 # 3.Updating and committing#
 1.  Type **git add -A** and *Enter*
