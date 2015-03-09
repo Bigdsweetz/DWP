@@ -48,9 +48,8 @@ a. If there are any errors, please make the neccessary changes to remedy any iss
 2.  Type **git push** *staging server* **master**
 3.  Iron out **ANY** issues we ran into.
 4.  Test again.
-
-    a. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take
-        I.  In the event of a major issue. We will go back to step 2 in the process and work accordingly
-        II. In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here)
+..1. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take.  
+    ..1.  In the event of a major issue. We will go back to step 2 in the process and work accordingly.
+In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here.)
 
 5.  Promote to Production
