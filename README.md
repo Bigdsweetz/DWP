@@ -1,11 +1,11 @@
 *Douglas Jay Sweeting II*
-
 *DWP*
 *Portfolio Deployment Plan*
 
 
 
 **This is the portfolio of Douglas J. Sweeting II. Any and all changes should following the below listed guidelines.** 
+
 
 ## The plan for Deployment
 1. Making any changes
@@ -14,6 +14,8 @@
 4. Merging changes 
 5. Version control
 5. Pushing to the test server
+
+
 
 # 1.  Making Changes #
 1. Changes can be done with any editor of your choosing.
@@ -31,7 +33,7 @@
 
 # 4. Merging #
 1.  Type **git merge** *changeName*
-    a. If there are any errors, please make the neccessary changes to remedy any issues.   
+a. If there are any errors, please make the neccessary changes to remedy any issues.   
 2.  Type **git push _remoteRepo_ master** and *Enter*	
 
 # 5. Version control #
@@ -44,7 +46,7 @@
 2.  Type **git push** *staging server* **master**
 3.  Iron out #ANY# issues we ran into.
 4.  Test again.
-    a. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take
-        I.  In the event of a major issue. We will go back to step 2 in the process and work accordingly
-        II. In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here)
+a. In the event that we continue to run into issues. There currently 2 COA (courses of Action) to take
+I.  In the event of a major issue. We will go back to step 2 in the process and work accordingly
+II. In the event of a minor issue. We will attempt this a total of 3 times (Baseball rules here)
 5.  Promote to Production
