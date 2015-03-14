@@ -1,0 +1,216 @@
+body {
+	background-color: white;
+	/*background: url('../img/top.jpg') repeat; */
+	font-family: "Raleway",sans-serif;
+    font-size: 18px;
+}
+ 
+video {
+	display: block;
+	margin: 0 auto;
+	width: 300px;  
+    height: 300px;  
+    position: relative;
+}
+	 
+hr {
+    margin: 0 auto;
+    opacity: 0.5;
+    text-align: center;
+}
+ul {
+    text-transform: uppercase;
+}
+ul.inline-list.right {
+    text-transform: none;
+}
+ul.inline-list.right a {
+    color: #000;
+}
+ul.inline-list.right a:hover {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.resize {
+	width: 250px;
+	height: 130px;
+	margin-bottom: 20px;
+
+} 
+
+.tooltip{
+    display: inline;
+    position: relative;
+	left: -18px;
+	width: 250px;
+	height: 130px;
+	margin-bottom: 20px;
+
+} 
+
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6x 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 20%;
+    position: absolute;
+    z-index: 99;
+}
+
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+}
+
+
+h1 {
+    color: #fff;
+    font-family: "American Typewriter","Courier New",Courier,Monaco,mono;
+    font-size: 32px;
+    line-height: 28px;
+    margin-bottom: 0;
+    margin-top: 16px;
+    text-align: center;
+}
+h2 {
+    color: #fff;
+    font-family: "American Typewriter","Courier New",Courier,Monaco,mono;
+    font-size: 36px;
+    line-height: 34px;
+}
+h3 {
+    color: #fff;
+    font-family: "American Typewriter","Courier New",Courier,Monaco,mono;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+h4 {
+    color: #000;
+    font-family: "American Typewriter","Courier New",Courier,Monaco,mono;
+    font-size: 28px;
+    padding-top: 5px;
+	text-align: center;
+} 
+.columns.large-centered {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 40em) {
+.columns.large-centered {
+    font-size: 13px;
+}
+}
+@media only screen and (min-width: 40.063em) {
+.columns.large-centered {
+    font-size: 14px;
+}
+}
+.about-box {
+    color: #fff;
+}
+.black-box {
+    background-color: rgba(0, 0, 0, 0.55);
+    font-weight: 900;
+    padding: 35px;
+}
+.black-box p {
+    font-weight: 900;
+}
+.secondary.small.button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    margin: 0;
+    padding: 15px 50px;
+}
+.secondary.small.button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.row .main-wrapper {
+    color: #fff;
+}
+.about-content {
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.button-group li .button {
+    border: 0 none !important;
+}
+.button {
+    background-color: transparent;
+    border-width: 0;
+    box-shadow: 0 0 0;
+    text-align: center;
+}
+.button:hover {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.7);
+}
+footer p, footer a {
+    font-size: 14px;
+}
+.hero {
+    background-image: url("../img/banner.png");
+    background-size: cover;
+    box-shadow: 0 0 0 2000px rgba(0, 0, 0, 0.2) inset;
+    padding-bottom: 50px;
+}
+.hero-content {
+    background-color: #eaeaea;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.panel {
+    background-color: #eaeaea;
+    border: medium none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 40px 0;
+}
+.large-4 img {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+.radius.right.button {
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 0.8125em;
+    margin: 0;
+    padding: 15px 50px;
+}
+@media only screen and (min-width: 64.063em) {
+.radius.right.button {
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 0.8125em;
+    margin-top: 25px;
+    padding: 15px 50px;
+}
+}
+@media only screen and (min-width: 40.063em) {
+.radius.right.button {
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    font-size: 0.8125em;
+    margin-top: 25px;
+    padding: 15px 50px;
+}
+}
+.radius.right.button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
